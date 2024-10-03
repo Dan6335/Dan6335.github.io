@@ -1,0 +1,211 @@
+<html lang="en" webcrx=""><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <title>Bluedude Dragons</title>
+    <style>
+        body {
+            background-color: #1a1a2e;
+            color: white;
+        }
+        .card {
+            background-color: #2b2f4b;
+            color: white;
+        }
+        .header h1 {
+            color: white;
+        }
+        .image-box {
+            width: 500px;
+            height: 600px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 15px auto;
+            background-color: #2b2f4b;
+        }
+        .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .video-box {
+            width: 500px;
+            height: 600px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 15px auto;
+            background-color: #2b2f4b;
+        }
+        .video-box video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .feature-cards {
+            background-color: #1a1a2e;
+        }
+        .feature-card {
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 30px;
+        }
+        .feature-info {
+            flex: 1;
+            background-color: #2b2f4b;
+            padding: 20px;
+            border-radius: 10px 0 0 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .feature-media {
+            flex: 2;
+        }
+        .image-box, .video-box {
+            width: 100%;
+            height: 600px;
+            border: 2px solid #ccc;
+            border-radius: 0 10px 10px 0;
+            overflow: hidden;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="particles"><canvas class="particles-js-canvas-el" width="1003" height="911" style="width: 100%; height: 100%;"></canvas></div>
+        <div class="info-text">
+            <h1>Bluedude Dragons</h1>
+            <h3>Minecraft Mod</h3>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="header">
+            <h1>About This Mod</h1>
+            <div class="line">
+                <a href="../index.html">Back to Portfolio</a>
+                <a target="_blank" href="https://github.com/Dan6335/BluedudeDragons">Github</a>
+            </div>  
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <h1>Bluedude Dragons</h1>
+                <p>
+                    Bluedude Dragons plans to be an immersive How to Train Your Dragon mod for Forge 1.18.2 we aim to add dragons from the movies, series and books. 
+                    Which you'll be able to fly, fight, hatch, and train
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="header">
+            <h1>Features</h1>
+        </div>
+        <div class="feature-cards">
+            <div class="feature-card">
+                <div class="feature-info">
+                    <h1>Dragon Variants and Armor</h1>
+                    <p>Multiple dragon variants with the ability to equip armor.</p>
+                </div>
+                <div class="feature-media">
+                    <div class="image-box">
+                        <img src="../assets/images/DragonArmor.png" alt="Dragon variants and armor">
+                    </div>
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-info">
+                    <h1>Age-Based Scaling</h1>
+                    <p>Dragons have different scales based on their age.</p>
+                </div>
+                <div class="feature-media">
+                    <div class="image-box">
+                        <img src="../assets/images/DragonScales.png" alt="Dragon age scales">
+                    </div>
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-info">
+                    <h1>Dragon Flight</h1>
+                    <p>Dragons have the ability to fly and glide.</p>
+                </div>
+                <div class="feature-media">
+                    <div class="video-box">
+                        <video controls>
+                            <source src="../assets/videos/DragonFlight.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-info">
+                    <h1>Advanced AI</h1>
+                    <p>Sophisticated AI for realistic dragon behavior.</p>
+                </div>
+                <div class="feature-media">
+                    <div class="video-box">
+                        <video controls>
+                            <source src="../assets/videos/DragonAI.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-info">
+                    <h1>Sitting and Sleeping</h1>
+                    <p>Dragons have the ability to randomly sit and sleep throughout the day or night.</p>
+                </div>
+                <div class="feature-media">
+                    <div class="video-box">
+                        <video controls>
+                            <source src="../assets/videos/DragonSleep.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-info">
+                    <h1>Dragon Nests</h1>
+                    <p>Unique nests for different dragon species in their respective biomes.</p>
+                </div>
+                <div class="feature-media">
+                    <div class="image-box">
+                        <img src="../assets/images/SpeedstingerNest.png" alt="Speedstinger Nest">
+                    </div>
+                    <div class="image-box">
+                        <img src="../assets/images/NightfuryNest.png" alt="Nightfury Nest">
+                    </div>
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-info">
+                    <h1>Dragon GUI</h1>
+                    <p>Interactive GUI for managing your dragons.</p>
+                </div>
+                <div class="feature-media">
+                    <div class="image-box">
+                        <img src="https://cdn.discordapp.com/attachments/958583629548773376/1283823485818372179/2024-09-12_18.03.25.png?ex=670014cb&is=66fec34b&hm=af402a71c4ed43f350503d22a097488cb6b22fba0cecb8b2871079700a3430fd&" alt="Dragon GUI">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button class="scroll-top" onclick="scrollToTop()" style="display: none;">
+        <i class="bx bxs-up-arrow"></i>
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
